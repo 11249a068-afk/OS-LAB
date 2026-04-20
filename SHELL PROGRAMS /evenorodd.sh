@@ -1,0 +1,11 @@
+                                                              --Execute shell program to find the whether a Number is even or odd--
+PROGRAM:
+#!/bin/bash
+echo "Enter a number:"
+read n
+if [ $((n % 2)) -eq 0 ]
+then
+  echo "The number is Even"
+else
+  echo "The number is Odd"
+fi
